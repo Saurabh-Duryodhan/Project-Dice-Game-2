@@ -1,0 +1,97 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    background-color: rgb(6, 40, 62);
+    transition: all ease-in-out 0.3s;
+}
+
+.main{
+    display: flex;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 60vh;
+    text-align: center;
+    height: 80vh;
+    padding:1rem;
+    background-color: rgba(240, 248, 255, 0.275);
+}
+
+h1{
+    margin-top: 2rem;
+    font-size: 2.4rem;
+}
+
+.scoreBoard{
+    margin: 1.2rem;
+}
+
+h3{
+    margin-top: 3rem;
+    font-size: 6rem;
+}
+
+button{
+    position: absolute;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all ease-in-out 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+.scoreCard{
+    margin-top: 10vh;
+    bottom: 10rem;
+}
+
+.currentScore{
+    margin-top: 3rem;
+}
+
+
+#newGame{
+    position: absolute;
+    margin-top: -15rem;
+}
+
+img{
+    position: absolute;
+    height: 6rem;
+    transition: all ease-in-out 0.3s;
+}
+
+#rollDice{
+    margin-bottom: -13rem;
+}
+
+#hold{
+    margin-bottom: -20rem; 
+}
+
+.scoreCard > h5{
+    font-size: 1.2rem;
+}
+
+section{
+    transition: all ease-in-out 0.6s;
+}
+
+.active-player{
+    background-color: rgb(193, 193, 193);
+}
