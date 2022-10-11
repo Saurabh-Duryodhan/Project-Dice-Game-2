@@ -20,8 +20,7 @@ body{
 section{
     width: 60vh;
     text-align: center;
-    height: 80vh;
-    padding:1rem;
+    padding: 5rem 2rem; 
     background-color: rgba(240, 248, 255, 0.275);
 }
 
@@ -61,7 +60,7 @@ button:hover{
 }
 
 .currentScore{
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 
@@ -85,6 +84,7 @@ img{
 }
 
 .scoreCard > h5{
+    margin-top: 10rem;
     font-size: 1.2rem;
 }
 
