@@ -57,7 +57,7 @@ button:hover{
 
 .scoreCard{
     margin-top: 10vh;
-    bottom: 3rem;
+    bottom: 0rem;
 }
 
 .currentScore{
@@ -72,7 +72,7 @@ button:hover{
 
 img{
     position: absolute;
-    height: 6rem;
+    height: 18.75rem;
     transition: all ease-in-out 0.3s;
 }
 
